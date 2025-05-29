@@ -65,7 +65,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-4">
-      <h1 className="text-3xl font-bold mb-6">Task Manager version 6</h1>
+      <h1 className="text-3xl font-bold mb-6">Task Manager version 7</h1>
       <form onSubmit={addTask} className="mb-4">
         <input
           type="text"
