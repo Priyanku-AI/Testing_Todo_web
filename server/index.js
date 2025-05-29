@@ -11,6 +11,7 @@ const express = require('express');
      app.use(express.json());
 
     app.get('/test', (req, res) => {console.log('Test endpoint hit'); res.send('Test endpoint works!');});
+    app.get('/test2', (req, res) => {console.log('Test_two endpoint hit'); res.send('Test_two endpoint works!');});
 
      // Get all tasks
      app.get('/api/tasks', async (req, res) => {
