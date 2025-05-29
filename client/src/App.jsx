@@ -11,8 +11,6 @@ function App() {
     fetchTasks();
   }, []);
 
-  //adding comments to the code just to check CICD in vercel
-
   const fetchTasks = async () => {
     try {
       const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/tasks`);
