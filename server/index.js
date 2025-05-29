@@ -17,7 +17,7 @@ app.get("/test", (req, res) => {
   console.log("Test endpoint hit");
   res.send("Test endpoint works!");
 });
-app.get("/test2", (req, res) => {
+app.get("/test3", (req, res) => {
   console.log("Test_two endpoint hit");
   res.send("Test_two endpoint works!");
 });
