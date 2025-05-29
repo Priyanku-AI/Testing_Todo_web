@@ -7,6 +7,7 @@ const express = require('express');
      const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
      app.use(cors());
+    //  app.use(cors({ origin: 'https://your-frontend.vercel.app' })); // Replace with your actual frontend URL
      app.use(express.json());
 
     app.get('/test', (req, res) => {console.log('Test endpoint hit'); res.send('Test endpoint works!');});
